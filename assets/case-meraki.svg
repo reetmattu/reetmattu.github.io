@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 420" role="img" aria-label="Meraki ecommerce landing page UI mockup">
+  <rect width="580" height="420" fill="#14100d"/>
+  <rect x="50" y="50" width="480" height="320" rx="22" fill="#f4eddf"/>
+  <rect x="82" y="82" width="90" height="12" rx="6" fill="#18130f"/>
+  <rect x="382" y="78" width="82" height="24" rx="12" fill="#c79b52"/>
+  <text x="82" y="168" fill="#18130f" font-family="Georgia,serif" font-size="54" font-weight="700">MERAKI</text>
+  <rect x="84" y="196" width="188" height="10" rx="5" fill="#18130f" opacity=".24"/>
+  <rect x="84" y="218" width="150" height="10" rx="5" fill="#18130f" opacity=".18"/>
+  <rect x="84" y="264" width="96" height="34" rx="17" fill="#18130f"/>
+  <rect x="318" y="136" width="122" height="166" rx="18" fill="#6f7f4d"/>
+  <rect x="388" y="112" width="76" height="118" rx="16" fill="#b65f3a"/>
+  <circle cx="357" cy="200" r="52" fill="#c79b52" opacity=".64"/>
+</svg>

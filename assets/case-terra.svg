@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 720" role="img" aria-label="TERRA skincare branding and packaging mockup">
+  <rect width="580" height="720" fill="#ded1b8"/>
+  <circle cx="92" cy="94" r="160" fill="#6f7f4d" opacity=".28"/>
+  <circle cx="478" cy="640" r="190" fill="#b65f3a" opacity=".20"/>
+  <rect x="96" y="120" width="388" height="468" rx="20" fill="#18130f"/>
+  <rect x="136" y="170" width="138" height="330" rx="13" fill="#f4eddf"/>
+  <rect x="306" y="214" width="114" height="286" rx="58" fill="#6f7f4d"/>
+  <text x="176" y="260" fill="#18130f" font-family="Georgia,serif" font-size="38" font-weight="700" transform="rotate(-90 176 260)">TERRA</text>
+  <path d="M358 274 C331 308, 340 352, 386 370 C410 330, 403 294, 358 274Z" fill="#f4eddf" opacity=".75"/>
+  <text x="136" y="552" fill="#f4eddf" font-family="Inter,Arial" font-size="18" font-weight="900">ORGANIC SKINCARE SYSTEM</text>
+</svg>

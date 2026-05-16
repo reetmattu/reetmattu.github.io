@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-label="Pulse music festival poster and social identity">
+  <rect width="760" height="420" fill="#17120f"/>
+  <rect x="56" y="54" width="648" height="312" rx="20" fill="#6d2639"/>
+  <circle cx="208" cy="210" r="112" fill="#c79b52"/>
+  <circle cx="286" cy="210" r="112" fill="#17120f"/>
+  <circle cx="372" cy="210" r="112" fill="#6f7f4d"/>
+  <text x="88" y="105" fill="#fff7e8" font-family="Inter,Arial" font-size="16" font-weight="900" letter-spacing="8">MUSIC / ART / NIGHT</text>
+  <text x="80" y="300" fill="#fff7e8" font-family="Georgia,serif" font-size="88" font-weight="700">PULSE</text>
+  <rect x="562" y="96" width="92" height="220" rx="46" fill="#fff7e8" opacity=".88"/>
+</svg>

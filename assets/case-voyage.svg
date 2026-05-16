@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 420" role="img" aria-label="Voyage travel app social campaign mockups">
+  <rect width="580" height="420" fill="#11130f"/>
+  <rect x="58" y="54" width="150" height="272" rx="18" fill="#6d2639"/>
+  <rect x="216" y="94" width="150" height="272" rx="18" fill="#c79b52"/>
+  <rect x="374" y="54" width="150" height="272" rx="18" fill="#6f7f4d"/>
+  <path d="M76 252 C128 170, 150 205, 196 116" fill="none" stroke="#fff7e8" stroke-width="7" stroke-linecap="round" opacity=".8"/>
+  <circle cx="292" cy="172" r="52" fill="#11130f" opacity=".22"/>
+  <path d="M414 230 C444 180, 462 190, 506 132" fill="none" stroke="#fff7e8" stroke-width="7" stroke-linecap="round" opacity=".8"/>
+  <text x="78" y="365" fill="#fff7e8" font-family="Georgia,serif" font-size="42" font-weight="700">VOYAGE</text>
+</svg>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reet Mattu | UI/UX Designer, Digital Marketer & Graphic Designer Portfolio</title>
+  <meta name="description" content="Award-worthy portfolio of Reet Mattu, a UI/UX Designer, Digital Marketer, Graphic Designer, Creative Designer, Freelance UI/UX Designer, and Branding Designer crafting memorable brand experiences." />
+  <meta name="keywords" content="UI/UX Designer Portfolio, Digital Marketing Portfolio, Graphic Designer Portfolio, Creative Designer, Freelance UI/UX Designer, Branding Designer, Reet Mattu" />
+  <meta name="author" content="Reet Mattu" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#12100d" />
+  <link rel="canonical" href="https://reetmattu.design/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Reet Mattu | Creative Designer Portfolio" />
+  <meta property="og:description" content="Where strategy meets aesthetic. Explore premium UI/UX, branding, social media, and digital marketing case studies by Reet Mattu." />
+  <meta property="og:image" content="assets/og-preview.svg" />
+  <meta property="og:url" content="https://reetmattu.design/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Reet Mattu | UI/UX, Marketing & Graphic Design Portfolio" />
+  <meta name="twitter:description" content="A cinematic portfolio for a creative designer building brands through visuals and interaction." />
+  <meta name="twitter:image" content="assets/og-preview.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Reet Mattu",
+    "jobTitle": ["UI/UX Designer", "Digital Marketer", "Graphic Designer", "Branding Designer"],
+    "url": "https://reetmattu.design/",
+    "sameAs": ["https://www.behance.net/", "https://www.linkedin.com/", "https://www.instagram.com/"],
+    "knowsAbout": ["UI/UX Design", "Brand Identity", "Digital Marketing", "Social Media Design", "Creative Direction", "Web Design"],
+    "address": { "@type": "PostalAddress", "addressLocality": "Chandigarh", "addressCountry": "India" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="loader" id="loader" aria-label="Loading portfolio experience">
+    <div class="loader-mark">RM</div>
+    <div class="loader-track"><span id="loaderBar"></span></div>
+    <p>Composing strategy, pixels, and motion</p>
+  </div>
+
+  <div class="cursor" id="cursor" aria-hidden="true"><span></span><i></i></div>
+  <div class="progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+
+  <nav class="dock" aria-label="Primary navigation">
+    <a href="#home" class="brand" aria-label="Reet Mattu home">RM</a>
+    <div class="dock-links">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="dock-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle light and dark mode" title="Theme">T</button>
+      <button class="menu-btn" id="menuToggle" aria-label="Open menu"><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <aside class="menu-panel" id="menuPanel" aria-hidden="true">
+    <div class="menu-panel-inner">
+      <button class="icon-btn close-menu" id="closeMenu" aria-label="Close menu">x</button>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Featured Work</a>
+      <a href="#services">Services</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Start a Project</a>
+      <p>Small studio energy. Senior-level taste. Campaigns that know why they exist.</p>
+    </div>
+  </aside>
+
+  <main id="main">
+    <section class="hero section" id="home" aria-labelledby="heroTitle">
+      <canvas id="orbCanvas" aria-hidden="true"></canvas>
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="availability reveal"><span></span>Available for brand and product sprints</p>
+          <h1 id="heroTitle" class="hero-title reveal">
+            Reet Mattu designs experiences people remember.
+          </h1>
+          <p class="role-line reveal">
+            <span>Creative direction for</span>
+            <strong id="roleSwitcher">UI/UX systems</strong>
+          </p>
+          <p class="hero-text reveal">A digital marketer, graphic designer, and UI/UX designer blending sharp strategy with cinematic visual systems for ambitious founders, agencies, and growing brands.</p>
+          <div class="hero-actions reveal">
+            <a href="#work" class="button button-primary magnetic">View case studies</a>
+            <a href="#contact" class="button button-ghost magnetic">Book a creative sprint</a>
+          </div>
+          <div class="hero-social reveal" aria-label="Social links">
+            <a href="#">Behance</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Instagram</a>
+          </div>
+        </div>
+
+        <div class="hero-art reveal" aria-label="Abstract portfolio identity artwork">
+          <div class="poster-stack">
+            <article class="poster poster-a">
+              <small>BRAND SYSTEM</small>
+              <strong>Strategy meets aesthetic</strong>
+              <span></span>
+            </article>
+            <article class="poster poster-b">
+              <small>INTERACTION</small>
+              <strong>Human-first digital products</strong>
+            </article>
+            <article class="poster poster-c">
+              <small>CAMPAIGN LIFT</small>
+              <strong>+168%</strong>
+            </article>
+          </div>
+          <div class="hero-orbit"><span>UI</span><span>SEO</span><span>3D</span><span>AD</span></div>
+        </div>
+      </div>
+      <div class="hero-marquee" aria-hidden="true">
+        <span>Branding Designer</span><span>Freelance UI/UX Designer</span><span>Digital Marketing Portfolio</span><span>Creative Designer</span>
+      </div>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="aboutTitle">
+      <div class="section-kicker reveal">About</div>
+      <div class="about-grid">
+        <div>
+          <h2 id="aboutTitle" class="section-title reveal">A cinematic thinker with a campaign brain and a designer's eye.</h2>
+          <p class="large-copy reveal">Reet builds visual identities, interfaces, and social campaigns that feel curated without losing the business objective. The work lives between editorial polish, conversion psychology, and tiny imperfect details that make digital feel human.</p>
+        </div>
+        <div class="philosophy reveal">
+          <p>"The best design does not shout. It creates a feeling, then quietly proves it can perform."</p>
+          <span>Design philosophy, written on a messy Monday.</span>
+        </div>
+      </div>
+
+      <div class="metric-strip reveal">
+        <div><strong data-count="54">0</strong><span>Projects shipped</span></div>
+        <div><strong data-count="31">0</strong><span>Brands supported</span></div>
+        <div><strong data-count="4">0</strong><span>Years in craft</span></div>
+        <div><strong data-count="168">0</strong><span>Avg. campaign lift</span></div>
+      </div>
+
+      <div class="journey">
+        <article class="timeline-card reveal"><span>2022</span><h3>Visual Design Foundation</h3><p>Built core graphic systems, social templates, and brand kits for early-stage businesses.</p></article>
+        <article class="timeline-card reveal"><span>2023</span><h3>Marketing Strategy Layer</h3><p>Added SEO, paid media, analytics, and conversion thinking to every creative decision.</p></article>
+        <article class="timeline-card reveal"><span>2024</span><h3>UI/UX Product Practice</h3><p>Moved into user flows, wireframes, prototypes, and product storytelling for responsive web experiences.</p></article>
+        <article class="timeline-card reveal"><span>Now</span><h3>Creative Systems Studio</h3><p>Designing full-funnel brand experiences from first impression to lasting preference.</p></article>
+      </div>
+    </section>
+
+    <section class="work section" id="work" aria-labelledby="workTitle">
+      <div class="section-head">
+        <div>
+          <div class="section-kicker reveal">Selected Work</div>
+          <h2 id="workTitle" class="section-title reveal">Case studies with strategy, beauty, and measurable outcomes.</h2>
+        </div>
+        <p class="section-note reveal">Hover, filter, and open each study. Every project is fictional demo content, structured like a premium portfolio piece.</p>
+      </div>
+
+      <div class="filters reveal" aria-label="Project filters">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="ui">UI/UX</button>
+        <button data-filter="brand">Branding</button>
+        <button data-filter="marketing">Marketing</button>
+        <button data-filter="social">Social</button>
+      </div>
+
+      <div class="featured-case reveal" data-parallax>
+        <div class="case-visual aurora">
+          <img src="assets/case-nova.svg" width="760" height="480" alt="NOVA finance app interface and campaign mockup" loading="lazy" />
+        </div>
+        <div class="case-copy">
+          <span>Flagship Case Study</span>
+          <h3>NOVA Finance App Launch</h3>
+          <p>A premium fintech launch system spanning UI, landing page, social campaign, paid ad direction, and conversion analytics.</p>
+          <dl>
+            <div><dt>Result</dt><dd>42% higher activation</dd></div>
+            <div><dt>Scope</dt><dd>UI/UX + campaign</dd></div>
+            <div><dt>Timeline</dt><dd>6 weeks</dd></div>
+          </dl>
+          <button class="button button-primary open-case" data-case="NOVA Finance App Launch">Open story</button>
+        </div>
+      </div>
+
+      <div class="work-grid" id="workGrid">
+        <article class="work-card tall reveal" data-category="brand marketing">
+          <img src="assets/case-terra.svg" width="580" height="720" alt="Terra skincare branding and packaging mockup" loading="lazy" />
+          <div><span>Brand Identity</span><h3>TERRA Skincare</h3><p>Earth-toned identity, packaging system, and launch content.</p><strong>3x shelf recall</strong></div>
+        </article>
+        <article class="work-card reveal" data-category="ui">
+          <img src="assets/case-meraki.svg" width="580" height="420" alt="Meraki ecommerce landing page UI mockup" loading="lazy" />
+          <div><span>UI/UX</span><h3>MERAKI Marketplace</h3><p>Conversion-first shopping flow with editorial product storytelling.</p><strong>-28% bounce</strong></div>
+        </article>
+        <article class="work-card reveal" data-category="social marketing">
+          <img src="assets/case-voyage.svg" width="580" height="420" alt="Voyage travel app social campaign mockups" loading="lazy" />
+          <div><span>Social Campaign</span><h3>VOYAGE Travel App</h3><p>Motion-led ad system for paid social and creator assets.</p><strong>3.1x ROAS</strong></div>
+        </article>
+        <article class="work-card wide reveal" data-category="brand social">
+          <img src="assets/case-pulse.svg" width="760" height="420" alt="Pulse music festival poster and social identity" loading="lazy" />
+          <div><span>Poster System</span><h3>PULSE Festival</h3><p>High-energy graphics with adaptive social and print rollouts.</p><strong>500K views</strong></div>
+        </article>
+      </div>
+
+      <div class="comparison reveal">
+        <div class="compare-before"><span>Before</span><p>Generic visuals, unclear positioning, scattered funnel.</p></div>
+        <input type="range" min="0" max="100" value="55" id="compareSlider" aria-label="Before after comparison" />
+        <div class="compare-after"><span>After</span><p>Ownable system, memorable interface, measurable campaign lift.</p></div>
+      </div>
+    </section>
+
+    <section class="services section" id="services" aria-labelledby="servicesTitle">
+      <div class="section-kicker reveal">Services</div>
+      <h2 id="servicesTitle" class="section-title narrow reveal">Creative direction for brands that need sharper signal.</h2>
+      <div class="service-grid">
+        <article class="service-card reveal"><span>01</span><h3>UI/UX Design</h3><p>Research-informed flows, wireframes, prototypes, design systems, and responsive interfaces.</p></article>
+        <article class="service-card reveal"><span>02</span><h3>Brand Identity</h3><p>Logo direction, visual language, typography, art direction, and brand kit systems.</p></article>
+        <article class="service-card reveal"><span>03</span><h3>Social Media Design</h3><p>Campaign concepts, high-retention content systems, feed design, and launch assets.</p></article>
+        <article class="service-card reveal"><span>04</span><h3>Digital Marketing</h3><p>SEO foundations, funnel thinking, content strategy, paid creative, and performance reporting.</p></article>
+        <article class="service-card reveal"><span>05</span><h3>Creative Direction</h3><p>High-level visual strategy that aligns story, audience, channels, and business outcomes.</p></article>
+        <article class="service-card reveal"><span>06</span><h3>Web Design</h3><p>Premium landing pages and portfolio experiences with interaction design and SEO structure.</p></article>
+      </div>
+    </section>
+
+    <section class="team section" id="team" aria-labelledby="teamTitle">
+      <div class="section-head">
+        <div>
+          <div class="section-kicker reveal">Studio Mode</div>
+          <h2 id="teamTitle" class="section-title reveal">A flexible creative crew around Reet's direction.</h2>
+        </div>
+        <p class="section-note reveal">Fictional demo collaborators shown to frame a modern studio experience.</p>
+      </div>
+      <div class="team-grid">
+        <article class="person-card reveal"><img src="assets/team-reet.svg" alt="Minimal portrait placeholder for Reet Mattu" loading="lazy" /><h3>Reet Mattu</h3><span>Creative Director</span><p>Strategy, taste, systems, and the last 10% polish.</p><div><a href="#">Li</a><a href="#">Be</a><a href="#">Ig</a></div></article>
+        <article class="person-card reveal"><img src="assets/team-aria.svg" alt="Minimal portrait placeholder for Aria Kapoor" loading="lazy" /><h3>Aria Kapoor</h3><span>UX Researcher</span><p>Turns messy user signals into clear product decisions.</p><div><a href="#">Li</a><a href="#">Dr</a><a href="#">Be</a></div></article>
+        <article class="person-card reveal"><img src="assets/team-sam.svg" alt="Minimal portrait placeholder for Sam Sharma" loading="lazy" /><h3>Sam Sharma</h3><span>Brand Strategist</span><p>Positioning, messaging, and market clarity without fluff.</p><div><a href="#">Li</a><a href="#">X</a><a href="#">Ig</a></div></article>
+        <article class="person-card reveal"><img src="assets/team-maya.svg" alt="Minimal portrait placeholder for Maya Joshi" loading="lazy" /><h3>Maya Joshi</h3><span>Motion Designer</span><p>Kinetic typography and launch visuals with rhythm.</p><div><a href="#">Dr</a><a href="#">Ig</a><a href="#">Li</a></div></article>
+      </div>
+    </section>
+
+    <section class="testimonials section" id="testimonials" aria-labelledby="testimonialsTitle">
+      <div class="section-kicker reveal">Testimonials</div>
+      <h2 id="testimonialsTitle" class="section-title narrow reveal">Client notes that sound like relief.</h2>
+      <div class="swiper testimonialSwiper reveal">
+        <div class="swiper-wrapper">
+          <article class="swiper-slide testimonial-card"><div>5/5</div><p>Reet gave our brand a point of view. The visuals became cleaner, the message became sharper, and our launch finally felt premium.</p><strong>Priya Khanna</strong><span>Founder, Lumos Studio</span></article>
+          <article class="swiper-slide testimonial-card"><div>5/5</div><p>The UI work was thoughtful and conversion-minded. It looked beautiful, but more importantly, users understood what to do next.</p><strong>Arjun Mehta</strong><span>Product Lead, NexaTech</span></article>
+          <article class="swiper-slide testimonial-card"><div>5/5</div><p>Our campaign assets stopped feeling random. Reet built a system that gave every post, ad, and landing page the same confident voice.</p><strong>Sophia Nair</strong><span>Marketing Director, Zephyr</span></article>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" aria-labelledby="contactTitle">
+      <div class="contact-panel reveal">
+        <div>
+          <div class="section-kicker">Contact</div>
+          <h2 id="contactTitle" class="section-title">Let's build something unforgettable.</h2>
+          <p>For brand systems, websites, social campaigns, UI/UX redesigns, and creative direction sprints.</p>
+          <a href="mailto:hello@reetmattu.design">hello@reetmattu.design</a>
+        </div>
+        <form id="contactForm" aria-label="Contact form">
+          <label>Name<input name="name" type="text" autocomplete="name" required /></label>
+          <label>Email<input name="email" type="email" autocomplete="email" required /></label>
+          <label>Project Type<select name="type"><option>UI/UX Design</option><option>Brand Identity</option><option>Digital Marketing</option><option>Web Design</option></select></label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <button class="button button-primary" type="submit">Send message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="case-dialog" id="caseDialog">
+    <button class="icon-btn" id="closeCase" aria-label="Close case study">x</button>
+    <span>Case Study</span>
+    <h2 id="caseDialogTitle">NOVA Finance App Launch</h2>
+    <p>Problem: a promising product looked interchangeable. Response: a premium interface, campaign language, and visual launch kit built around trust, velocity, and calm financial control.</p>
+    <div class="case-dialog-grid">
+      <div><strong>01</strong><p>Mapped audience anxieties and redesigned the onboarding story.</p></div>
+      <div><strong>02</strong><p>Created a modular identity system for ads, web, decks, and social.</p></div>
+      <div><strong>03</strong><p>Improved clarity with product-led copy, hierarchy, and motion cues.</p></div>
+    </div>
+  </dialog>
+
+  <footer class="footer">
+    <div class="footer-marquee" aria-hidden="true"><span>Designing experiences that people remember.</span><span>Where strategy meets aesthetic.</span><span>Building brands through visuals and interaction.</span></div>
+    <div class="footer-inner">
+      <a href="#home" class="brand">RM</a>
+      <p>Reet Mattu - UI/UX Designer, Digital Marketer, Graphic Designer, and Creative Designer.</p>
+      <div><a href="#">Behance</a><a href="#">LinkedIn</a><a href="#">Instagram</a><a href="404.html">404</a></div>
+    </div>
+  </footer>
+
+  <script src="js/lib/three.min.js" defer></script>
+  <script src="js/lib/gsap.min.js" defer></script>
+  <script src="js/lib/ScrollTrigger.min.js" defer></script>
+  <script src="js/lib/lenis.min.js" defer></script>
+  <script src="js/lib/swiper-bundle.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

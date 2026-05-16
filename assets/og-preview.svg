@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Reet Mattu portfolio preview">
+  <rect width="1200" height="630" fill="#12100d"/>
+  <circle cx="170" cy="120" r="220" fill="#6f7f4d" opacity=".28"/>
+  <circle cx="990" cy="520" r="260" fill="#6d2639" opacity=".36"/>
+  <text x="86" y="190" fill="#c79b52" font-family="Inter,Arial" font-size="22" font-weight="900" letter-spacing="9">UI/UX DESIGNER • DIGITAL MARKETER • GRAPHIC DESIGNER</text>
+  <text x="82" y="360" fill="#fff7e8" font-family="Georgia,serif" font-size="132" font-weight="700">Reet Mattu</text>
+  <text x="90" y="430" fill="#eadbc2" font-family="Inter,Arial" font-size="34" font-weight="700">Designing experiences that people remember.</text>
+  <rect x="850" y="120" width="220" height="360" rx="30" fill="#c79b52" transform="rotate(8 960 300)"/>
+</svg>
